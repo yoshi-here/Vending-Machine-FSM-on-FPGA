@@ -18,8 +18,8 @@ The controller is divided into two primary state machines and supporting periphe
 
 ## Block Diagram
 
-<!-- INSERT IMAGE HERE -->
-![System Block Diagram](path/to/your/block_diagram.png)
+![System Block Diagram](images/block_diagram.jpg)
+
 
 ---
 
@@ -29,13 +29,13 @@ The controller is divided into two primary state machines and supporting periphe
 Tracks incoming coins and manages transitions up to the dispensing threshold[cite: 10].
 
 <!-- INSERT IMAGE HERE -->
-![Deposit FSM State Diagram](path/to/your/deposit_fsm_diagram.png)
+![Deposit FSM State Diagram](images/deposit_fsm.jpg)
 
 ### Dispense FSM
 Controls product delivery and change calculations based on remaining balance and coin inventory[cite: 10].
 
 <!-- INSERT IMAGE HERE -->
-![Dispense FSM State Diagram](path/to/your/dispense_fsm_diagram.png)
+![Dispense FSM State Diagram](images/dispense_fsm.jpg)
 
 ---
 
